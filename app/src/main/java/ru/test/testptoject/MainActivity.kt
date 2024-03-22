@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import ru.test.testptoject.ui.theme.TestPtojectTheme
 
-// китайский язык добавляется
+//
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +37,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
-
+// изменения фикс бага
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
